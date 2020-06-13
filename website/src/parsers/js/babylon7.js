@@ -87,7 +87,7 @@ export default {
   ...defaultParserInterface,
 
   id: ID,
-  displayName: ID,
+  displayName: '@babel/parser',
   version: pkg.version,
   homepage: pkg.homepage,
   locationProps: new Set(['range', 'loc', 'start', 'end']),
